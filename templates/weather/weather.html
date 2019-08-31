@@ -24,6 +24,9 @@
     <div class="row">
         <div class="col-5 offset-1">
             <h2>Weather in your city</h2>
+            {% if message %}
+                <div class="alert alert {{ message_class }}">{{ message }}</div>
+            {% endif %}
             <form action="" method="post">
                 {% csrf_token %}
                 <div class="input-group">
@@ -33,6 +36,7 @@
                     {{ form.name }}
                 </div>
                 <input type="submit" name="send" value="Get to know the city" class="mt-2 btn btn-info">
+
             </form>
 
         </div>
@@ -45,7 +49,7 @@
                 <div class="row">
                     <div class="col-9">
                         <b>City:</b> <div class="badge badge-primary text-wrap text-uppercase">{{ info.city }}</div></br>
-                        <b>Temperature:</b> {{ info.temp }}<sup>o</sup>
+                        <b>Temperature:</b> {{ info.temp }} ° F
                     </div>
                     <div class="col-2 offset-1">
                         <img src="http://openweathermap.org/img/w/{{ info.icon }}.png" alt="ico" class="img-thumbnail">
