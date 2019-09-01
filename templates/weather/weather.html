@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
     <h5 class="my-0 mr-md-auto font-weight-normal">Weather App on Django</h5>
     <nav class="my-2 my-md-0 mr-md-3">
@@ -35,6 +34,7 @@
                     </div>
                     {{ form.name }}
                 </div>
+
                 <input type="submit" name="send" value="Get to know the city" class="mt-2 btn btn-info">
 
             </form>
@@ -46,13 +46,18 @@
             {% for info in all_info %}
 
             <div class="alert alert-info">
+            <div class="right">
+                <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
                 <div class="row">
                     <div class="col-9">
                         <b>City:</b> <div class="badge badge-primary text-wrap text-uppercase">{{ info.city }}</div></br>
                         <b>Temperature:</b> {{ info.temp }} ° F
                     </div>
                     <div class="col-2 offset-1">
-                        <img src="http://openweathermap.org/img/w/{{ info.icon }}.png" alt="ico" class="img-thumbnail">
+                        <img src="http://openweathermap.org/img/w/{{ info.icon }}.png" alt="ico">
                     </div>
                 </div>
             </div>
@@ -60,7 +65,6 @@
         </div>
     </div>
 </div>
-
 
 </body>
 </html>

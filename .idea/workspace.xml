@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c4eaa79-e818-4651-8c2c-8e65b92079be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/weather/weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/weather/weather.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +128,8 @@
       <workItem from="1567255095246" duration="183000" />
       <workItem from="1567255298999" duration="1738000" />
       <workItem from="1567257454696" duration="207000" />
-      <workItem from="1567257678790" duration="8574000" />
+      <workItem from="1567257678790" duration="9583000" />
+      <workItem from="1567359004840" duration="5025000" />
     </task>
     <servers />
   </component>
