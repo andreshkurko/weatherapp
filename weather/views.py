@@ -1,5 +1,5 @@
 import requests
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import City
 from .forms import CityForm
 
@@ -61,3 +61,11 @@ def index(request):
                }
 
     return render(request, 'weather/weather.html', context)
+
+
+# todo The city is not deleted, it is necessary to fix
+
+def delete_city(request, city_name):
+    City.objects.get(name=city_name).delete()
+
+    return redirect('home')
