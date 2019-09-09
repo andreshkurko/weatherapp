@@ -49,6 +49,7 @@ def index(request):
         city_info = {
             'city': city.name,
             'temp': res["main"]["temp"],
+            'country': res["sys"]["country"],
             'icon': res["weather"][0]["icon"]
         }
 
@@ -61,7 +62,6 @@ def index(request):
                }
 
     return render(request, 'weather/weather.html', context)
-
 
 
 def delete_city(request, city_name):
