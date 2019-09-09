@@ -12,7 +12,7 @@ def index(request):
     message = ''
     message_class = ''
 
-    if (request.method == 'POST'):
+    if request.method == 'POST':
         form = CityForm(request.POST)
 
         if form.is_valid():
@@ -21,7 +21,7 @@ def index(request):
 
             if existing_city_count == 0:
                 r = requests.get(url.format(new_city)).json()
-                print(r)
+                # print(r)
                 if r['cod'] == 200:
                     form.save()
                 else:
@@ -36,7 +36,7 @@ def index(request):
             message = 'City added successfully!'
             message_class = 'alert-success'
 
-    print(err_msg)
+    # print(err_msg)
 
     form = CityForm()
 
@@ -63,7 +63,6 @@ def index(request):
     return render(request, 'weather/weather.html', context)
 
 
-# todo The city is not deleted, it is necessary to fix
 
 def delete_city(request, city_name):
     City.objects.get(name=city_name).delete()
