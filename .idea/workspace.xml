@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c4eaa79-e818-4651-8c2c-8e65b92079be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/openWeatherMap.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/weather.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
@@ -203,7 +202,7 @@
       <workItem from="1567359004840" duration="7642000" />
       <workItem from="1567426348844" duration="22000" />
       <workItem from="1567426389213" duration="774000" />
-      <workItem from="1567807552946" duration="23756000" />
+      <workItem from="1567807552946" duration="24281000" />
     </task>
     <servers />
   </component>

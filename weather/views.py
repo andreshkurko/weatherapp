@@ -50,6 +50,7 @@ def index(request):
             'city': city.name,
             'temp': res["main"]["temp"],
             'country': res["sys"]["country"],
+            'description': res["weather"][0]["description"],
             'icon': res["weather"][0]["icon"]
         }
 

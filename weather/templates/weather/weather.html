@@ -61,6 +61,8 @@
                             <b>Temperature:</b> {{ info.temp }} ° F
                             </br>
                             <b>Country:</b> {{ info.country }}
+                            </br>
+                            <b>Description:</b> {{ info.description }}
                         </div>
                         <div class="col-2 offset-1">
                             <img src="http://openweathermap.org/img/w/{{ info.icon }}.png" alt="ico">
@@ -71,6 +73,11 @@
         </div>
     </div>
 </div>
+
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2017-2019 Weather App on Django · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
 
 </body>
 </html>
