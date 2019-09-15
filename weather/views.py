@@ -2,6 +2,7 @@ import requests
 from django.shortcuts import render, redirect
 from .models import City
 from .forms import CityForm
+from django.utils import dateformat
 
 
 def index(request):

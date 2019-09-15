@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9c4eaa79-e818-4651-8c2c-8e65b92079be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib64" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/weather.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/weatherapp/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +205,18 @@
       <workItem from="1567359004840" duration="7642000" />
       <workItem from="1567426348844" duration="22000" />
       <workItem from="1567426389213" duration="774000" />
-      <workItem from="1567807552946" duration="24281000" />
+      <workItem from="1567807552946" duration="25537000" />
+      <workItem from="1568143103311" duration="1575000" />
+      <workItem from="1568144720415" duration="122000" />
+      <workItem from="1568144865054" duration="102000" />
+      <workItem from="1568144992224" duration="39000" />
+      <workItem from="1568145051093" duration="167000" />
+      <workItem from="1568145238598" duration="394000" />
+      <workItem from="1568145655223" duration="381000" />
+      <workItem from="1568146055492" duration="30000" />
+      <workItem from="1568311556266" duration="3820000" />
+      <workItem from="1568488995945" duration="1268000" />
+      <workItem from="1568570015582" duration="6667000" />
     </task>
     <servers />
   </component>
